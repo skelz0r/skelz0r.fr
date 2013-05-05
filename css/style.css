@@ -1,0 +1,112 @@
+html,body {
+	height: 100%;
+}
+
+div.center {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+div.wrapper {
+	display: table-row;
+}
+
+div.cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+div.cell img {
+	width: 30%;
+	animation: zoomin 2s;
+	-moz-animation: zoomin 2s;
+	-webkit-animation: zoomin 2s;
+	-o-animation: zoomin 2s;
+}
+
+div.problem {
+	font-family: 'Chewy', cursive;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: auto;
+
+	font-size: 10em;
+	line-height: 1;
+
+	background-color: rgba(177, 177, 177, 0.6);
+	height: 140px;
+	width: 788px;
+	border-radius: 20px;
+
+	animation: nothing 2s, fadein 2s 2s;
+	-moz-animation: nothing 2s, fadein 2s 2s;
+	-webkit-animation: nothing 2s, fadein 2s 2s;
+	-o-animation: nothing 2s, fadein 2s 2s;
+}
+
+@keyframes nothing {
+	from { opacity: 0; }
+	to { opacity: 0; }
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes zoomin {
+	from { width: 5%; }
+	to { width: 30%; }
+}
+
+@-moz-keyframes nothing {
+	from { opacity: 0; }
+	to { opacity: 0; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes zoomin {
+	from { width: 5%; }
+	to { width: 30%; }
+}
+
+@-webkit-keyframes nothing {
+	from { opacity: 0; }
+	to { opacity: 0; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-webkit-keyframes zoomin {
+	from { width: 5%; }
+	to { width: 30%; }
+}
+
+@-o-keyframes nothing {
+	from { opacity: 0; }
+	to { opacity: 0; }
+}
+
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-o-keyframes zoomin {
+	from { width: 5%; }
+	to { width: 30%; }
+}
+
+
