@@ -26,27 +26,51 @@ div.cell img {
 	-o-animation: zoomin 2s;
 }
 
-div.problem {
-	font-family: 'Chewy', cursive;
+div.block {
 	position: absolute;
-	top: 20%;
 	left: 0;
 	right: 0;
 	text-align: center;
 	margin: auto;
 
-	font-size: 10em;
-	line-height: 1;
-
-	background-color: rgba(177, 177, 177, 0.6);
-	height: 140px;
-	width: 788px;
+	background-color: rgba(177, 177, 177, 0.7);
+	
 	border-radius: 20px;
-
 	animation: nothing 2s, fadein 2s 2s;
 	-moz-animation: nothing 2s, fadein 2s 2s;
 	-webkit-animation: nothing 2s, fadein 2s 2s;
 	-o-animation: nothing 2s, fadein 2s 2s;
+}
+
+div.me {
+	font-family: 'Chewy', cursive;
+	font-size: 10em;
+	line-height: 1.1;
+	top: 8%;
+	height: 150px;
+	width: 550px;
+}
+
+div.socials {
+	bottom: 8%;
+	height: 93px;
+	width: 450px;
+
+}
+
+div.socials img {
+	width: 64px;
+	vertical-align: 12%;
+}
+
+div.socials a {
+	display: inline-block;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+div.socials img:hover {
+	opacity: 0.7;
 }
 
 @keyframes nothing {
